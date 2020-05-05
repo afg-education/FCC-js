@@ -9,3 +9,8 @@ function repeatStringNumTimes(str, num) {
 }
 
 repeatStringNumTimes("abc", 3);
+
+//love this solution on hints page...
+// function repeatStringNumTimes(str, num) {
+//   return num > 0 ? str + repeatStringNumTimes(str, num - 1) : '';
+// }
