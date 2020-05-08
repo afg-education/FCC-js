@@ -13,14 +13,12 @@ function sumPrimes(num) {
   console.log(result);
   return result;
 
-
   function isPrime(number) {
     for (let i = 2; i < number; i++) {
       if (number % i === 0) return false;
     }
     return true;
   }
-
 }
 
 sumPrimes(977);
